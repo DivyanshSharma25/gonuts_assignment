@@ -1,0 +1,21 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^python -c \"import importlib\\.util; mods=\\['fitz','pymupdf','pypdf','requests'\\]; print\\(\\{m: bool\\(importlib\\.util\\.find_spec\\(m\\)\\) for m in mods\\}\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python -c \"import ollama; print\\('ollama ok'\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python -c \"import qdrant_client; import rank_bm25; print\\('retrieval deps ok'\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python -m compileall rag$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  },
+  "python.terminal.useEnvFile": true
+}

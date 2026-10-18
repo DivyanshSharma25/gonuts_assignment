@@ -1,0 +1,8 @@
+PyMuPDF==1.28.2
+PyMuPDF4LLM==1.28.2
+ollama==0.6.1
+qdrant-client==1.14.2
+rank-bm25==0.2.2
+pydantic>=2.7,<3
+# The verifier uses Python's standard HTTP client for Gemini's
+# OpenAI-compatible API; no additional LLM SDK is required.

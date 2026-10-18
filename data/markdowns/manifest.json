@@ -1,0 +1,58 @@
+[
+  {
+    "source": "papers\\C1.pdf",
+    "output": "data\\markdowns\\C1.md",
+    "pages": 4,
+    "visual_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "vlm_errors": {},
+    "status": "ok"
+  },
+  {
+    "source": "papers\\C2C4C6.pdf",
+    "output": "data\\markdowns\\C2C4C6.md",
+    "pages": 10,
+    "visual_pages": [],
+    "vlm_errors": {},
+    "status": "ok"
+  },
+  {
+    "source": "papers\\C3.pdf",
+    "output": "data\\markdowns\\C3.md",
+    "pages": 38,
+    "visual_pages": [
+      33,
+      35,
+      36
+    ],
+    "vlm_errors": {},
+    "status": "ok"
+  },
+  {
+    "source": "papers\\C5C7.pdf",
+    "output": "data\\markdowns\\C5C7.md",
+    "pages": 2,
+    "visual_pages": [
+      1,
+      2
+    ],
+    "vlm_errors": {},
+    "status": "ok"
+  },
+  {
+    "source": "papers\\C7.pdf",
+    "output": "data\\markdowns\\C7.md",
+    "pages": 14,
+    "visual_pages": [
+      7,
+      8,
+      9
+    ],
+    "vlm_errors": {},
+    "status": "ok"
+  }
+]
